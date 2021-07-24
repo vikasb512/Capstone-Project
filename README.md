@@ -25,23 +25,23 @@ The hidden test dataset is of roughly the same scale as the training dataset.
 
 Files
 
-train_study_level.csv - the train study-level metadata, with one row for each study, including correct labels.
-train_image_level.csv - the train image-level metadata, with one row for each image, including both correct labels and any bounding boxes in a dictionary format. Some images in both test and train have multiple bounding boxes.
-sample_submission.csv - a sample submission file containing all image- and study-level IDs.
+1. train_study_level.csv - the train study-level metadata, with one row for each study, including correct labels.
+2. train_image_level.csv - the train image-level metadata, with one row for each image, including both correct labels and any bounding boxes in a dictionary format. Some images in both test and train have multiple bounding boxes.
+3. sample_submission.csv - a sample submission file containing all image- and study-level IDs.
 Columns
 
 train_study_level.csv
 
 id - unique study identifier
-Negative for Pneumonia - 1 if the study is negative for pneumonia, 0 otherwise
-Typical Appearance - 1 if the study has this appearance, 0 otherwise
-Indeterminate Appearance  - 1 if the study has this appearance, 0 otherwise
-Atypical Appearance  - 1 if the study has this appearance, 0 otherwise
-train_image_level.csv
+1. Negative for Pneumonia - 1 if the study is negative for pneumonia, 0 otherwise
+2. Typical Appearance - 1 if the study has this appearance, 0 otherwise
+3. Indeterminate Appearance  - 1 if the study has this appearance, 0 otherwise
+4. Atypical Appearance  - 1 if the study has this appearance, 0 otherwise
 
-id - unique image identifier
-boxes - bounding boxes in easily-readable dictionary format
-label - the correct prediction label for the provided bounding boxes
+train_image_level.csv
+1. id - unique image identifier
+2. boxes - bounding boxes in easily-readable dictionary format
+3. label - the correct prediction label for the provided bounding boxes
 
 
 ## Next Steps:
