@@ -1,7 +1,7 @@
 The Project is split into three notebooks:
 
-1. EDA Notebook
-2. Convert DCIM to Jpg
+1. EDA Notebook: Initial EDA and Data Understanding
+2. Convert DCIM to Jpg: Converting the given DCIM image dataset to jpg for workability. 
 3. Capstone Project CNN Modeling
 
 The CNN modeling notebook utulizes the first two notebooks for the modeling process. 
@@ -42,7 +42,6 @@ train_image_level.csv
 1. id - unique image identifier
 2. boxes - bounding boxes in easily-readable dictionary format
 3. label - the correct prediction label for the provided bounding boxes
-
 
 ## Next Steps:
 The project will be built upon, to include multi-class classification and also perform localization on the chest x-rays.
